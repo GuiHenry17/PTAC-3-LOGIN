@@ -1,0 +1,83 @@
+/* App.css - Cool styling for your login form */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #000;
+}
+
+.login-container input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.157);
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+.login-container input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #2575fc;
+}
+
+.login-container button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 12px;
+    background: #2575fc;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+    background: #1a5bb8;
+}
+
+.login-container a {
+    color: #2575fc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.login-container a:hover {
+    color: #1a5bb8;
+}
